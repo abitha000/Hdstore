@@ -3,17 +3,17 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
-	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	API_ID = int(os.environ.get("API_ID", "24401235"))
+	API_HASH = os.environ.get("API_HASH", "149f7e13d7d861b27cffc3ab1fd52b22")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6491531689:AAG89PgNh-vTdJUQKGAWhc7MzEi5Y_zeFXE")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tessa_Ro_bot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002159448886"))
+	SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "instantlinks.co")
+	SHORTLINK_API = os.environ.get('SHORTLINK_API', "3a4e15410f0be7fa1de0c4754564959d20f1d0a5")
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1556830659"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://avianandh004:TeamHdt009@cluster0.hdvf3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002260410306")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002414067137")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -33,20 +33,20 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸 **Developer:** [Predator HackerzZ](https://t.me/OwnYourBotz) 
+├🔸 **Developer:** [Team_HDT](https://t.me/Team_HDT) 
 │
-├🔹 **Bot Support:** [Support Group](https://t.me/TeleRoid14)
+├🔹 **Bot Support:** [Support Group](https://t.me/Team_HDT)
 │
-├🔸 **Bot Updates:** [Bots Channel](https://t.me/TeleRoidGroup)
+├🔸 **Bot Updates:** [Bots Channel](https://t.me/Team_HDT)
 │
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@PredatorHackerzZ](https://github.com/PredatorHackerzZ)
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@Team_HDT](https://t.me/Team_HDT)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/DonateXrobot) or ```teleroidgroup@axl```
+[Donate Me](https://t.me/Team_HDT)
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
