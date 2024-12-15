@@ -1,7 +1,7 @@
 # (c) @PredatorHackerzZ
 
 import datetime
-import motor.motor_asyncio
+from pymongo import MongoClient
 from configs import Config
 
 
