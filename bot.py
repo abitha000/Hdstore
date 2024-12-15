@@ -45,7 +45,8 @@ Bot = Client(
     in_memory=True,
     bot_token=Config.BOT_TOKEN,
     api_id=Config.API_ID,
-    api_hash=Config.API_HASH
+    api_hash=Config.API_HASH,
+    database_url=Config.DATABASE_URL
 )
 
 
